@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Project" parallel="classes">
+    <listeners>
+        <listener class-name="testComponenets.Listeners"/>
+    </listeners>
+    <test name="submitOrder" thread-count="5">
+        <classes>
+            <class name="example.SubmitOrder"/>
+        </classes>
+    </test>
+
+    <test name="loginPage" thread-count="5">
+        <classes>
+            <class name="example.Login"/>
+        </classes>
+    </test>
+
+</suite>
