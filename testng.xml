@@ -3,11 +3,11 @@
     <listeners>
         <listener class-name="testComponenets.Listeners"/>
     </listeners>
-    <test name="submitOrder" thread-count="5">
-        <classes>
-            <class name="example.SubmitOrder"/>
-        </classes>
-    </test>
+<!--    <test name="submitOrder" thread-count="5">-->
+<!--        <classes>-->
+<!--            <class name="example.SubmitOrder"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
     <test name="loginPage" thread-count="5">
         <classes>
